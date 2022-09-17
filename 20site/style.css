@@ -1,0 +1,8 @@
+svg {
+  border: 1px solid #dddddd;
+}
+
+.shape-stroke {
+  fill: lightseagreen;
+  stroke: teal;
+}

@@ -1,0 +1,7 @@
+svg {
+  border: 1px solid #dddddd;
+}
+
+.shape-dasharray {
+  stroke-dasharray: 5 10 15 20;
+}

@@ -1,0 +1,8 @@
+svg {
+  border: 1px solid #dddddd;
+}
+
+
+.shape-linecap {
+  stroke-linecap: square;
+}

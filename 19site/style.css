@@ -1,0 +1,12 @@
+svg {
+  border: 1px solid #dddddd;
+}
+
+.rect-2 {
+  fill: lightseagreen;
+  fill-opacity: 0.5;
+}
+
+.rect-4 {
+  fill: none;
+}
