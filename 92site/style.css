@@ -1,0 +1,98 @@
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Адреса картинок:
+quotes.png
+post-challenge.png
+Картинка «кавычки» выровнена по центру
+*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 280px;
+  min-height: 250px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 85px;
+
+  font-size: 12px;
+  line-height: 1.2;
+  font-family: "Arial", sans-serif;
+  color: #7f8c8d;
+
+  background-color: #ecf0f1;
+}
+
+.post-title {
+  position: relative;
+  font-size: 20px;
+  color: #2980b9;
+}
+
+.post-date {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  width: 55px;
+  height: 55px;
+  font-size: 15px;
+  line-height: 55px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  border-bottom: 5px solid #bdc3c7;
+}
+
+.post-author {
+  margin-top: 5px;
+}
+
+.post a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.post-stats {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.post-stats .icon {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 15px;
+  height: 15px;
+  background: url("post-challenge.png") no-repeat;
+  z-index: 10;
+}
+
+.post-stats .icon-comments {
+  background-position: -20px 0;
+}
+
+.post-text {
+  position: relative;
+  width: 170px;
+  padding: 10px;
+  padding-left: 15px;
+  background-color: white;
+  border-bottom: 5px solid #bdc3c7;
+}
+
+.post-text::before {
+  position: absolute;
+  top: 8px;
+  left: -75px;
+  width: 55px;
+  height: 55px;
+  background: #7f8c8d url("quotes.png") no-repeat 50% 50%;
+  border-bottom: 5px solid #bdc3c7;
+  content: "";
+}
